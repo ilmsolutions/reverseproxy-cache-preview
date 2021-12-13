@@ -1,0 +1,28 @@
+{
+  "name": "cache-node",
+  "version": "0.1.0",
+  "author": "Muqeet Mohammed Abdul",
+  "description": "A proxy for routing and caching API calls",
+  "contributors": [ 
+    {
+      "name": "Muqeet Mohammed Abdul",
+      "email": "itsmuqeet@gmail.com"
+    } 
+  ],  
+  "dependencies": {
+     "express":"latest",
+     "mongoose":"latest",
+     "raw-body":"latest",
+     "extend":"latest"
+  },
+  "main": "./server.js",  
+  "keywords": [
+    "azure",
+    "boilerplate"
+  ],  
+  "noAnalyze": true,
+  "license": "Apache",
+  "engines": {
+    "node": ">=0.6.14"
+  }
+}
